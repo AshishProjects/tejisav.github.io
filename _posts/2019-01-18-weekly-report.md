@@ -1,14 +1,11 @@
 # [Weekly Report]({% post_url 2019-01-18-weekly-report %})
 
-## 
-I choose a Windows C++ project in which I will be integrating and using ImGui to create a decent GUI on a transparent overlay that can overlap any open windows of a process.
+## Things I Did
+- Setup Transparent aero overlay from [https://github.com/ReactiioN1337/aero-overlay](https://github.com/ReactiioN1337/aero-overlay)
+- Added lag fix for windows 10 RS2 from one of the fork's commit [https://github.com/rossnichols/aero-overlay/commit/969397f0fe47fc0caddef294e6ef398e13cc1c67](https://github.com/rossnichols/aero-overlay/commit/969397f0fe47fc0caddef294e6ef398e13cc1c67)
+- Calling scale_overlay function inside a loop to follow target window everytime the user moves it.
 
-## Reason
-I have a passion for game hacking i.e. developing cheats/hacks for popular multiplayer games for windows. Currently I have a working overlay with a simple toggle-able line based GUI but the overlay is not very well coded and lacks good performance. Also ImGui will provide a highly customisable and good looking GUI for better controlling and configuring the cheats/hacks I develop. This project will provide me with a good base for my future and current project.
+## Things I Am Going To Do
 
-## References
-For this project I will be using :-
-
-High performance and well coded transparent overlay - [https://github.com/ReactiioN1337/aero-overlay](https://github.com/ReactiioN1337/aero-overlay)
-
-Bloat-free Immediate Mode Graphical User interface for C++ - [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)
+## Problems
+- Scaling the target window also scales the stuff being rendered on the overlay.
