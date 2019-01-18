@@ -42,6 +42,7 @@
             {{ post.content }}
             - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
           </article>
+          <br>
         {% endfor %}
       <footer class="site-footer">
         {% if site.github.is_project_page %}
