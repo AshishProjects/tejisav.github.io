@@ -15,6 +15,11 @@
 - Creating a dummy GUI for one of my game hacking projects.
 - Documenting usage and creating a powerpoint presentation.
 
+## Deliverables
+- Source for the overlay with imgui implemented and a dummy GUI.
+- A compiled exe which will recieve name of any open window as an argument. It will create an overlay on the specified window and a dummy GUI will be drawn on that overlay.
+- Usage Intructions
+
 ## Problems
 - Scaling the target window also scales the stuff being rendered on the overlay.
 
