@@ -20,4 +20,4 @@
 
 ## Workarounds
 - The aero overlay comes with Direct2D and Direct3D renderers but i only found out directx9 implementation of imgui. So the gui is only drawn when the device argument is set to "d3d9".
-- The aero overlay is click through so the imgui windows does not receive any mouse or keyboard input. So in order to fix it i am using a solution provided here [https://www.unknowncheats.me/forum/1474150-post9.html](https://www.unknowncheats.me/forum/1474150-post9.html). What is basically does is the user can toggle the gui and while it is rendering the overlay's click thorugh behaviour is disabled and when the gui is not rendering the click through behaviour of overlay is enabled.
+- The aero overlay is click through so the imgui windows does not receive any mouse or keyboard input. So in order to fix it i am using a solution provided here [https://www.unknowncheats.me/forum/1474150-post9.html](https://www.unknowncheats.me/forum/1474150-post9.html). What it basically does is the user can toggle the gui and while it is rendering the overlay's click thorugh behaviour is disabled and when the gui is not rendering the click through behaviour of overlay is enabled.
