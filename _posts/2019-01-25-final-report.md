@@ -26,4 +26,4 @@
 
 ## Screenshots
 - Drawing demo imgui over windows 10 calculator
-![imgui demo](https://tejisav.github.io/Demo.jpg "ImGui Demo")
+![imgui demo](https://tejisav.github.io/_images/Demo.jpg "ImGui Demo")
