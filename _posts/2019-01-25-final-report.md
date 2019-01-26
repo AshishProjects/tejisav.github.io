@@ -24,6 +24,23 @@
 - It will also help me in my future game hacking projects
 - Overlays with GUI are not only limited to game hacking, they can also be used in gaming clients, team speak software's e.g. Discord, Steam both have their overlays with GUI’s that provide functionality for their application directly in the game.
 
+## Downloads
+[http://tejisav.github.io/aero-overlay-master.zip](http://tejisav.github.io/aero-overlay-master.zip)
+
+## Usage
+The exe build is in the build\Release-x64 folder. This is currently tested on windows 10 only.
+
+1. Run Calculator app and maximize it.
+2. Run Start.bat from the above mentioned folder. If everything went well text in white color will show up on the top left corner.
+3. Press insert button on keyboard to toggle GUI.
+
+Advanced Usage :-
+
+Launch aero-overlay.exe from cmd with following arguments. 
+aero-overlay --device "d3d9" --window "Calculator"
+Replace Calculator with any window name shown in the title bar of the process. Make sure it is maximized to properly display the GUI.
+Note:- Insert button will toggle GUI.
+
 ## Screenshots
 - Final GUI
 ![Aim Tab](https://tejisav.github.io/Final1.png "Aim Tab")
