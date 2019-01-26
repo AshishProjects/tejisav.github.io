@@ -25,5 +25,7 @@
 - Overlays with GUI are not only limited to game hacking, they can also be used in gaming clients, team speak software's e.g. Discord, Steam both have their overlays with GUI’s that provide functionality for their application directly in the game.
 
 ## Screenshots
-- Drawing demo imgui over windows 10 calculator
-![imgui demo](https://tejisav.github.io/_images/Demo.jpg "ImGui Demo")
+- Final GUI
+![Aim Tab](https://tejisav.github.io/Final1.png "Aim Tab")
+![Visuals Tab](https://tejisav.github.io/Final2.png "Visuals Tab")
+![Misc Tab](https://tejisav.github.io/Final3.png "Misc Tab")
